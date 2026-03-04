@@ -1,4 +1,4 @@
-from resumeUpload import DocumentData
+from dataupload.resumeUpload import DocumentData
 import os
 from dataclasses import dataclass
 from typing import List
