@@ -8,4 +8,4 @@ wheels/
 .env
 # Virtual environments
 .venvs
-.resume.pdf
+*.pdf
