@@ -9,8 +9,10 @@ class MoreInfo:
     def get_more_info(self) -> Dict[str, Any]:
         info = input("Do you have any more info you will want the agent to know about you?: ")
         goals = input("What are your goals for each agent?: ")
+        location=input("what is your location and do you prefer remote roles?: ")
         return {
             "user_id": self.user_id,
             "info": info,
             "goals": goals,
+            "location": location,
         }
