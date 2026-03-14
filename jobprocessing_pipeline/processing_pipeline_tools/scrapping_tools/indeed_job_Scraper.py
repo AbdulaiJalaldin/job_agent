@@ -89,7 +89,6 @@ async def search_indeed(queries: list[dict], max_results_per_query: int = 2):
             payload = {
                 "position": search_term,   # ✅ singular string, not an array
                 "location": location,
-                "country": "US",
                 "maxItems": max_results_per_query,
             }
 
